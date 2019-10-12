@@ -25,5 +25,6 @@ end
 
 def printer(attendees)
   new_array = batch_badge_creator(attendees)
-  puts new_array.first
+  new_array = new_array.first
+  puts new_array
 end
