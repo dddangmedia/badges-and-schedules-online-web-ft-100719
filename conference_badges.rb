@@ -1,6 +1,4 @@
 # Write your code here.
-def badge_maker(y)
-  y.each do |x|
-    return "Hello, my name is #{x}."
-  end
+def badge_maker(name)
+  return "Hello, my name is #{name}"
 end
