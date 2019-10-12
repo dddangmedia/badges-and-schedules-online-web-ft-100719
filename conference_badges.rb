@@ -24,6 +24,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  message = batch_badge_creator(attendees)
-  print message
+  print batch_badge_creator(attendees)
 end
